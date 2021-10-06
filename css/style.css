@@ -1,0 +1,465 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+body {
+  background-color: #0101a3;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.navbar-light .navbar-toggler {
+  color: #e92bde;
+  border: 3px solid #e92bde;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #e92bde;
+}
+header {
+  border-bottom: 10px solid #e92bde;
+  padding: 25px 35px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectionone {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(0, 0, 57, 0), rgba(0, 9, 0, 0.2));
+}
+.sectionone ul {
+  text-decoration: 10px underline;
+  color: #e92bde;
+  margin: 0;
+  padding: 0;
+}
+.sectionone ul h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+.sectionone p {
+  color: #e92bde;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.sectionone h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 70px;
+  text-transform: uppercase;
+}
+.sectionone .aaa a {
+  color: #ffffff;
+  background-color: #e92bde;
+  padding: 8px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+.aaa {
+  padding-bottom: 50px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectiontow {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(0, 0, 57, 0), rgba(0, 9, 0, 0.2));
+}
+.threeimage img {
+  border: 10px solid #0101a3;
+  border-radius: 50%;
+}
+.threeimage img:hover {
+  border: 10px solid #e92bde;
+  border-radius: 50%;
+}
+.sectiontow h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+  padding-top: 0px;
+}
+.sectiontow .threeimage {
+}
+.sectiontow .threeimage h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.sectiontow .threeimage p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectionthree {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.sectionthree h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.sectionthree p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.sectionthree img {
+  margin-bottom: 60px;
+}
+.sectionthree a {
+  color: #ffffff;
+  background-color: #e92bde;
+  padding: 8px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectionfour {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sectionfour h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 90px;
+}
+.sectionfour p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.sectionfour a {
+  color: #ffffff;
+  background-color: #e92bde;
+  padding: 8px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectionfive {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.sectionfive h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 90px;
+}
+.sectionfive p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.sectionfive a {
+  color: #ffffff;
+  background-color: #e92bde;
+  padding: 8px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+.aaa {
+  padding-bottom: 50px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectionsix {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-color: #000086;
+}
+.sectionsix h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+.sectionsix h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 90px;
+  text-transform: uppercase;
+}
+.sectionsix p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.sectionsix a {
+  color: #ffffff;
+  background-color: #e92bde;
+  padding: 8px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+.aaa {
+  padding-bottom: 50px;
+}
+.forhover {
+  position: relative;
+}
+.forhover::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.forhover:hover::before {
+  height: 100%;
+  width: 50%;
+  background-color: #e92bde;
+  transition: 0.4s ease-in-out;
+}
+.forhover::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+}
+.forhover:hover::after {
+  height: 100%;
+  width: 50%;
+  background-color: #e92bde;
+  transition: 0.4s ease-in-out;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectionseven {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.sectionseven h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.sectionseven p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.sectionseven a {
+  color: #ffffff;
+  background-color: #e92bde;
+  padding: 8px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+.aaa {
+  padding-bottom: 50px;
+}
+form {
+  background-color: #e92bde;
+  padding: 70px;
+}
+form h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.fristrow {
+  display: flex;
+  justify-content: space-between;
+}
+.fristrow input {
+  width: 48%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 8px 0px;
+  border-radius: 5px;
+}
+.fristrow input:focus {
+  outline: none;
+}
+input {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 8px 0px;
+  margin: 8px 0px;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 8px 0px;
+  margin: 8px 0px;
+  border-radius: 5px;
+}
+textarea:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px;
+  font-size: 20px;
+}
+textarea::placeholder {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px;
+  font-size: 20px;
+}
+.checkbox {
+}
+.checkbox ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox ul li {
+  list-style: none;
+}
+.checkbox ul li input {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+.checkbox ul li p {
+  margin-left: 25px;
+  padding-bottom: 0px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectioneight {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sectioneight h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+.sectioneight img {
+  border: 5px solid #e92bde;
+  padding: 0px;
+  border-radius: 25px;
+}
+.sectioneight p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sectionnine {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 9, 57, 0));
+}
+.sectionnine img {
+  margin-bottom: 50px;
+}
+.ulli {
+}
+.ulli ul {
+  padding: 0px;
+  margin: 0px;
+}
+.ulli ul li {
+  list-style: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+footer {
+  border-top: 10px solid #e92bde;
+  padding: 25px 35px;
+}
+footer p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-left: auto;
+}
+footer ul li {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li a {
+  font-size: 26px;
+}
+footer ul li a i {
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
