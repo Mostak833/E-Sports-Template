@@ -3,121 +3,107 @@
   margin: 0;
   font-family: "Dosis", sans-serif;
   font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  color: #e6e4e4;
 }
 body {
   background-color: #0101a3;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-.navbar-light .navbar-toggler {
+.navbar-toggler {
   color: #e92bde;
-  border: 3px solid #e92bde;
+  border: none;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+.navber-light .navbar-nav .nav-link {
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-align: center;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+.navber-light .navbar-nav .nav-link:hover {
   color: #e92bde;
+}
+.padding {
+  padding: 25px 70px;
 }
 header {
   border-bottom: 10px solid #e92bde;
-  padding: 25px 35px;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectionone {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   background: linear-gradient(rgba(0, 0, 57, 0), rgba(0, 9, 0, 0.2));
 }
-.sectionone ul {
-  text-decoration: 10px underline;
-  color: #e92bde;
-  margin: 0;
-  padding: 0;
-}
-.sectionone ul h1 {
-  font-size: 80px;
+.sectionone h1 {
+  font-size: 60px;
   font-weight: 800;
-  color: #fff;
   text-transform: uppercase;
+  text-shadow: -5px 0px 0px #e92bde;
 }
 .sectionone p {
   color: #e92bde;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   padding-top: 30px;
-  text-transform: uppercase;
 }
 .sectionone h5 {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   padding-bottom: 70px;
-  text-transform: uppercase;
 }
 .sectionone .aaa a {
   color: #ffffff;
   background-color: #e92bde;
   padding: 8px 40px;
   text-decoration: none;
-  text-transform: uppercase;
+
   font-size: 20px;
   font-weight: 400;
 }
 .aaa {
   padding-bottom: 50px;
 }
+
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectiontow {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   background: linear-gradient(rgba(0, 0, 57, 0), rgba(0, 9, 0, 0.2));
-}
-.threeimage img {
-  border: 10px solid #0101a3;
-  border-radius: 50%;
-}
-.threeimage img:hover {
-  border: 10px solid #e92bde;
-  border-radius: 50%;
 }
 .sectiontow h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
   padding-bottom: 70px;
   padding-top: 0px;
 }
-.sectiontow .threeimage {
-}
+
 .sectiontow .threeimage h1 {
   font-size: 40px;
   font-weight: 400;
-  color: #fff;
   padding-bottom: 30px;
   padding-top: 30px;
-  text-transform: uppercase;
 }
 .sectiontow .threeimage p {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectionthree {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 70px;
+  padding-top: 90px;
+  padding-bottom: 60px;
 }
 .sectionthree h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
   padding-bottom: 20px;
 }
 .sectionthree p {
@@ -125,7 +111,6 @@ header {
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 30px;
-  text-transform: uppercase;
 }
 .sectionthree img {
   margin-bottom: 60px;
@@ -135,20 +120,17 @@ header {
   background-color: #e92bde;
   padding: 8px 40px;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectionfour {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
 }
 .sectionfour h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
   padding-bottom: 20px;
   padding-top: 90px;
 }
@@ -157,27 +139,23 @@ header {
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 30px;
-  text-transform: uppercase;
 }
 .sectionfour a {
   color: #ffffff;
   background-color: #e92bde;
   padding: 8px 40px;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectionfive {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 90px;
 }
 .sectionfive h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
   padding-bottom: 20px;
   padding-top: 90px;
 }
@@ -186,14 +164,12 @@ header {
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 30px;
-  text-transform: uppercase;
 }
 .sectionfive a {
   color: #ffffff;
   background-color: #e92bde;
   padding: 8px 40px;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
 }
@@ -202,38 +178,33 @@ header {
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectionsix {
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 80px;
   background-color: #000086;
 }
 .sectionsix h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
   padding-bottom: 60px;
 }
 .sectionsix h2 {
   font-size: 40px;
   font-weight: 400;
-  color: #fff;
   padding-bottom: 20px;
-  padding-top: 90px;
-  text-transform: uppercase;
+  padding-top: 40px;
 }
 .sectionsix p {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 30px;
-  text-transform: uppercase;
 }
 .sectionsix a {
   color: #ffffff;
   background-color: #e92bde;
   padding: 8px 40px;
   text-decoration: none;
-  text-transform: uppercase;
+
   font-size: 20px;
   font-weight: 400;
 }
@@ -275,15 +246,13 @@ header {
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectionseven {
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding-top: 90px;
+  padding-bottom: 50px;
   position: relative;
 }
 .sectionseven h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
   padding-bottom: 20px;
 }
 .sectionseven p {
@@ -291,32 +260,13 @@ header {
   font-size: 20px;
   font-weight: 200;
   padding-bottom: 30px;
-  text-transform: uppercase;
-}
-.errowicon {
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: 130px;
-  font-size: 30px;
-  color: #ffffff;
-  animation: movement 1s linear infinite;
-  animation-direction: ;
-  position: absolute;
-}
-@keyframes movement {
-  0% {
-    left: 25%;
-  }
-  100% {
-    left: 28%;
-  }
 }
 .sectionseven a {
   color: #ffffff;
   background-color: #0101a3;
   padding: 8px 40px;
   text-decoration: none;
-  text-transform: uppercase;
+
   font-size: 20px;
   font-weight: 400;
 }
@@ -330,9 +280,9 @@ form {
 form h3 {
   font-size: 40px;
   font-weight: 400;
-  color: #fff;
   padding-bottom: 20px;
-  text-transform: uppercase;
+
+  text-align: center;
 }
 .fristrow {
   display: flex;
@@ -341,9 +291,8 @@ form h3 {
 .fristrow input {
   width: 48%;
   background-color: transparent;
-  border: 2px solid #fff;
-  padding: 8px 0px;
-  border-radius: 5px;
+  border: 2px solid #e6e4e4;
+  padding: 6px 0px;
 }
 .fristrow input:focus {
   outline: none;
@@ -351,10 +300,9 @@ form h3 {
 input {
   width: 100%;
   background-color: transparent;
-  border: 2px solid #fff;
-  padding: 8px 0px;
+  border: 2px solid #e6e4e4;
+  padding: 6px 0px;
   margin: 8px 0px;
-  border-radius: 5px;
 }
 input:focus {
   outline: none;
@@ -362,27 +310,23 @@ input:focus {
 textarea {
   width: 100%;
   background-color: transparent;
-  border: 2px solid #fff;
-  padding: 8px 0px;
+  border: 2px solid #e6e4e4;
+  padding: 6px 0px;
   margin: 8px 0px;
-  border-radius: 5px;
 }
 textarea:focus {
   outline: none;
 }
 input::placeholder {
-  color: #ffffff;
-  text-transform: uppercase;
+  color: #e6e4e4;
+
   padding: 8px;
   font-size: 20px;
 }
 textarea::placeholder {
-  color: #ffffff;
-  text-transform: uppercase;
+  color: #e6e4e4;
   padding: 8px;
   font-size: 20px;
-}
-.checkbox {
 }
 .checkbox ul {
   padding: 0;
@@ -394,12 +338,14 @@ textarea::placeholder {
   list-style: none;
 }
 .checkbox ul li input {
+  padding: 0;
+  margin: 0;
   width: 20px;
-  height: 20px;
+  height: 30px;
   background-color: transparent;
 }
 .checkbox ul li p {
-  margin-left: 25px;
+  margin-left: 10px;
   padding-bottom: 0px;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -410,21 +356,13 @@ textarea::placeholder {
 .sectioneight h1 {
   font-size: 60px;
   font-weight: 800;
-  color: #fff;
-  text-transform: uppercase;
   padding-bottom: 60px;
-}
-.sectioneight img {
-  border: 5px solid #e92bde;
-  padding: 0px;
-  border-radius: 25px;
 }
 .sectioneight p {
   color: #fff;
   font-size: 24px;
   font-weight: 400;
   padding-top: 40px;
-  text-transform: uppercase;
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .sectionnine {
@@ -435,8 +373,6 @@ textarea::placeholder {
 .sectionnine img {
   margin-bottom: 50px;
 }
-.ulli {
-}
 .ulli ul {
   padding: 0px;
   margin: 0px;
@@ -446,18 +382,16 @@ textarea::placeholder {
   color: #fff;
   font-size: 24px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 footer {
   border-top: 10px solid #e92bde;
-  padding: 25px 35px;
+  padding: 25px 0px;
 }
 footer p {
   color: #fff;
   font-size: 24px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 footer ul {
   padding: 0;
@@ -478,7 +412,6 @@ footer ul li {
 }
 footer ul li a {
   font-size: 26px;
-}
-footer ul li a i {
+  color: #2929f8#importent;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
