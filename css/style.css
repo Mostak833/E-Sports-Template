@@ -19,13 +19,13 @@ body {
   outline: none;
   box-shadow: none;
 }
-.navber-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
 }
-.navber-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color: #e92bde;
 }
 .padding {
@@ -405,13 +405,12 @@ footer ul li {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #e92bde;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 footer ul li a {
   font-size: 26px;
-  color: #2929f8#importent;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
