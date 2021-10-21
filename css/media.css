@@ -261,7 +261,7 @@
     padding: 10px 0px 0px;
   }
   header {
-    padding: 25px 35px 0;
+    padding: 25px 35px 25px 47px;
   }
   /* sectionone///////////////// */
   .sectionone {
@@ -486,7 +486,7 @@
     padding: 10px 0px 0px;
   }
   header {
-    padding: 25px 35px 20px 43px;
+    padding: 20px 40px 20px 52px;
   }
   /* sectionone///////////////// */
   .sectionone {
@@ -694,7 +694,7 @@
     ##Screen = B/w 481px to 767px
   */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .navbar > .container,
   .navbar > .container-fluid,
   .navbar > .container-lg,
@@ -704,11 +704,8 @@
   .navbar > .container-xxl {
     padding: 0;
   }
-  .navbar {
-    padding-bottom: 30px;
-  }
   header {
-    padding: 25px 35px;
+    padding: 20px 20px 20px 32px;
   }
   /* sectionone///////////////// */
   .sectionone {
@@ -928,7 +925,7 @@
     padding: 10px 0px 0px;
   }
   header {
-    padding: 20px 35px;
+    padding: 20px 0px 20px 12px;
   }
   /* sectionone///////////////// */
   .sectionone {
@@ -1144,7 +1141,7 @@
     padding: 10px 0px 0px;
   }
   header {
-    padding: 10px 35px;
+    padding: 10px 0px 0px 12px;
   }
   /* sectionone///////////////// */
   .sectionone {
